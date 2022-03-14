@@ -22,4 +22,9 @@ class TasksController extends Controller
 
         return $task;
     }
+
+    public function show(Task $task)
+    {
+        return $task;
+    }
 }
